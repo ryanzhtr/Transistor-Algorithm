@@ -222,6 +222,15 @@ MVCAMERA_LIB:FILEPATH=/opt/MVS/lib/64/libMvCameraControl.so
 OpenCV_DIR:PATH=/usr/local/lib/cmake/opencv4
 
 //Value Computed by CMake
+armor_detect_BINARY_DIR:STATIC=/home/ooo/aa2/armor_detect/build
+
+//Value Computed by CMake
+armor_detect_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+armor_detect_SOURCE_DIR:STATIC=/home/ooo/aa2/armor_detect
+
+//Value Computed by CMake
 light_BINARY_DIR:STATIC=/home/ooo/aa2/armor_detect/build
 
 //Value Computed by CMake

@@ -447,4 +447,12 @@ CMakeFiles/light.dir/main.cpp.o: /home/ooo/aa2/armor_detect/main.cpp \
  /usr/include/linux/close_range.h /usr/include/inttypes.h \
  /usr/include/gflags/gflags.h /usr/include/gflags/gflags_declare.h \
  /usr/include/gflags/gflags_gflags.h /usr/include/glog/log_severity.h \
- /usr/include/glog/vlog_is_on.h
+ /usr/include/glog/vlog_is_on.h \
+ /home/ooo/aa2/armor_detect/include/Camera.h \
+ /home/ooo/aa2/armor_detect/include/MvCameraControl.h \
+ /home/ooo/aa2/armor_detect/include/MvErrorDefine.h \
+ /home/ooo/aa2/armor_detect/include/MvISPErrorDefine.h \
+ /home/ooo/aa2/armor_detect/include/CameraParams.h \
+ /home/ooo/aa2/armor_detect/include/PixelType.h \
+ /home/ooo/aa2/armor_detect/include/MvObsoleteInterfaces.h \
+ /home/ooo/aa2/armor_detect/include/ObsoleteCamParams.h
