@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63249e3 (test)
 // #include "Camera.h"
 
 // bool g_bExit = false;
@@ -589,9 +592,12 @@
 #include <iostream>
 #include <cstdlib>
 #include <cstring>
+<<<<<<< HEAD
 =======
 #include "Camera.h"
 >>>>>>> a748d59 (detect)
+=======
+>>>>>>> 63249e3 (test)
 
 bool g_bExit = false;
 cv::Mat g_image;
@@ -754,22 +760,33 @@ void* Camera::workThread(void* pUser) {
 
                 std::cout << "BayerGB8 image updated." << std::endl;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63249e3 (test)
 
                 // 显示图像
                 cv::imshow("Captured Frame", bgrImg);
                 cv::waitKey(1);  // 刷新窗口
+<<<<<<< HEAD
 =======
 >>>>>>> a748d59 (detect)
+=======
+>>>>>>> 63249e3 (test)
             } else {
                 std::cerr << "Unsupported pixel format: " << stImageInfo.enPixelType << std::endl;
             }
         } else {
+<<<<<<< HEAD
 <<<<<<< HEAD
             // 如果抓取失败，增加日志打印
 //            std::cerr << "No frame data received! ret [0x" << std::hex << nRet << "]" << std::endl;
 =======
             std::cerr << "No frame data received! ret [0x" << std::hex << nRet << "]" << std::endl;
 >>>>>>> a748d59 (detect)
+=======
+            // 如果抓取失败，增加日志打印
+//            std::cerr << "No frame data received! ret [0x" << std::hex << nRet << "]" << std::endl;
+>>>>>>> 63249e3 (test)
         }
 
         if (g_bExit) {

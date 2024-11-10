@@ -1,8 +1,12 @@
 cmake_minimum_required(VERSION 3.5)
 <<<<<<< HEAD
+<<<<<<< HEAD
 project(armor_detect)
 =======
 >>>>>>> a748d59 (detect)
+=======
+project(armor_detect)
+>>>>>>> 63249e3 (test)
 
 # 设置C++标准
 set(CMAKE_CXX_STANDARD 17)

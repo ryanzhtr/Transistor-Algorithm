@@ -237,7 +237,20 @@ c10_LIBRARY:FILEPATH=/usr/local/libtorch/lib/libc10.so
 kineto_LIBRARY:FILEPATH=/usr/local/libtorch/lib/libkineto.a
 
 //Value Computed by CMake
+<<<<<<< HEAD:train_net/build/CMakeCache.txt
 number_recognition_BINARY_DIR:STATIC=/home/loule/RM/number_classifier/build
+=======
+armor_detect_BINARY_DIR:STATIC=/home/ooo/aa2/armor_detect/build
+
+//Value Computed by CMake
+armor_detect_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+armor_detect_SOURCE_DIR:STATIC=/home/ooo/aa2/armor_detect
+
+//Value Computed by CMake
+light_BINARY_DIR:STATIC=/home/ooo/aa2/armor_detect/build
+>>>>>>> 63249e3 (test):dec/armor_detect/build/CMakeCache.txt
 
 //Value Computed by CMake
 number_recognition_IS_TOP_LEVEL:STATIC=ON
