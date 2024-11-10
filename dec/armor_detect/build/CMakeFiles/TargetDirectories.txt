@@ -1,0 +1,3 @@
+/home/ooo/aa2/armor_detect/build/CMakeFiles/light.dir
+/home/ooo/aa2/armor_detect/build/CMakeFiles/edit_cache.dir
+/home/ooo/aa2/armor_detect/build/CMakeFiles/rebuild_cache.dir
