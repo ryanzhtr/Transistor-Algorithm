@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // #include "Camera.h"
 
 // bool g_bExit = false;
@@ -588,6 +589,9 @@
 #include <iostream>
 #include <cstdlib>
 #include <cstring>
+=======
+#include "Camera.h"
+>>>>>>> a748d59 (detect)
 
 bool g_bExit = false;
 cv::Mat g_image;
@@ -749,16 +753,23 @@ void* Camera::workThread(void* pUser) {
                 pthread_mutex_unlock(&g_mutex);
 
                 std::cout << "BayerGB8 image updated." << std::endl;
+<<<<<<< HEAD
 
                 // 显示图像
                 cv::imshow("Captured Frame", bgrImg);
                 cv::waitKey(1);  // 刷新窗口
+=======
+>>>>>>> a748d59 (detect)
             } else {
                 std::cerr << "Unsupported pixel format: " << stImageInfo.enPixelType << std::endl;
             }
         } else {
+<<<<<<< HEAD
             // 如果抓取失败，增加日志打印
 //            std::cerr << "No frame data received! ret [0x" << std::hex << nRet << "]" << std::endl;
+=======
+            std::cerr << "No frame data received! ret [0x" << std::hex << nRet << "]" << std::endl;
+>>>>>>> a748d59 (detect)
         }
 
         if (g_bExit) {
