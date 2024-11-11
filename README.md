@@ -11,7 +11,7 @@ Unify git commit format for easy version management and code review.
 ###  Basic git commit format
 
 ```
-<type>: <body> <SPACE> <name>
+<type>: <body> <SPACE> <HYPHEN> <SPACE> <name>
 ```
 
 - **type**: Indicates the type of a particular submission such as fixing a bug or adding a feature, all types and their meanings are listed. **Noticed: There is no limit to the number of types per submission!**
