@@ -1,0 +1,3 @@
+/home/loule/RM/number_classifier/build/CMakeFiles/train.dir
+/home/loule/RM/number_classifier/build/CMakeFiles/edit_cache.dir
+/home/loule/RM/number_classifier/build/CMakeFiles/rebuild_cache.dir
