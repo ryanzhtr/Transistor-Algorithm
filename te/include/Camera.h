@@ -1,3 +1,4 @@
+// /include/Camera.h
 #ifndef CAMERA_H
 #define CAMERA_H
 
@@ -28,6 +29,39 @@ public:
 
     // 摄像头取流线程
     static void* workThread(void* pUser);
+
+        // 设置曝光时间（单位：微秒）
+    bool setExposureTime(float exposureTime) {
+        int nRet = MV_CC_SetFloatValue(handle, "ExposureTime", exposureTime);
+        return (nRet == MV_OK);
+    }
+    
+    // 设置增益
+    bool setGain(float gain) {
+        int nRet = MV_CC_SetFloatValue(handle, "Gain", gain);
+        return (nRet == MV_OK);
+    }
+    
+    // 获取当前曝光时间
+    float getExposureTime() {
+        MVCC_FLOATVALUE stValue = {0};
+        int nRet = MV_CC_GetFloatValue(handle, "ExposureTime", &stValue);
+        if (nRet == MV_OK) {
+            return stValue.fCurValue;
+        }
+        return -1.0f;
+    }
+    
+    // 获取当前增益
+    float getGain() {
+        MVCC_FLOATVALUE stValue = {0};
+        int nRet = MV_CC_GetFloatValue(handle, "Gain", &stValue);
+        if (nRet == MV_OK) {
+            return stValue.fCurValue;
+        }
+        return -1.0f;
+    }
+
 };
 
 #endif // CAMERA_H
