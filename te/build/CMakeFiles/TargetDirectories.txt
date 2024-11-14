@@ -1,0 +1,3 @@
+/home/ooo/桌面/te/build/CMakeFiles/armor_detect.dir
+/home/ooo/桌面/te/build/CMakeFiles/edit_cache.dir
+/home/ooo/桌面/te/build/CMakeFiles/rebuild_cache.dir
