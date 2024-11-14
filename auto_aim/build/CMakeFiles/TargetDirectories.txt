@@ -1,0 +1,7 @@
+/home/ooo/aa2/aa/build/CMakeFiles/armor_detect.dir
+/home/ooo/aa2/aa/build/CMakeFiles/edit_cache.dir
+/home/ooo/aa2/aa/build/CMakeFiles/rebuild_cache.dir
+/home/ooo/aa2/aa/build/CMakeFiles/list_install_components.dir
+/home/ooo/aa2/aa/build/CMakeFiles/install.dir
+/home/ooo/aa2/aa/build/CMakeFiles/install/local.dir
+/home/ooo/aa2/aa/build/CMakeFiles/install/strip.dir
