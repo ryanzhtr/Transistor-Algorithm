@@ -10,6 +10,17 @@ int main() {
     // 创建 Camera 对象并初始化
     Camera camera(deviceIp, netIp);
 
+    // 设置曝光时间为20ms
+    camera.setExposureTime(50000.0f);
+
+    // 设置增益为5
+    camera.setGain(10.0f);
+
+    // 获取当前设置
+    float currentExposure = camera.getExposureTime();
+    float currentGain = camera.getGain();
+
+
     // 获取并显示图像
     while (!g_bExit) {
         // 使用互斥锁访问共享的全局图像

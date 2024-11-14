@@ -1,3 +1,4 @@
+// /MvCameraControl.h
 #ifndef AUTOAIM_LIGHTBARFINDER_H
 #define AUTOAIM_LIGHTBARFINDER_H
 
