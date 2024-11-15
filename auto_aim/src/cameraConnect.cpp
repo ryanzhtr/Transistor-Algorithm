@@ -137,7 +137,7 @@ void* Camera::workThread(void* pUser) {
     while (!g_bExit) {
         int nRet = MV_CC_GetOneFrameTimeout(pCam->handle, pData, pCam->nPayloadSize, &stImageInfo, 5000);
         if (nRet == MV_OK) {
-            std::cout << "Frame received: Width[" << stImageInfo.nWidth << "], Height[" << stImageInfo.nHeight << "]" << std::endl;
+//            std::cout << "Frame received: Width[" << stImageInfo.nWidth << "], Height[" << stImageInfo.nHeight << "]" << std::endl;
 
             // 检查帧数据完整性
             if (stImageInfo.nFrameLen != pCam->nPayloadSize) {
@@ -146,7 +146,7 @@ void* Camera::workThread(void* pUser) {
             }
 
             // 检查源像素类型
-            std::cout << "Source Pixel Type: " << stImageInfo.enPixelType << std::endl;
+//            std::cout << "Source Pixel Type: " << stImageInfo.enPixelType << std::endl;
 
             // 处理 BayerGB8 格式
             if (stImageInfo.enPixelType == PixelType_Gvsp_BayerGB8) {
@@ -159,7 +159,7 @@ void* Camera::workThread(void* pUser) {
                 g_image = bgrImg.clone();  // 将转换后的 BGR 图像保存
                 pthread_mutex_unlock(&g_mutex);
 
-                std::cout << "BayerGB8 image updated." << std::endl;
+//                std::cout << "BayerGB8 image updated." << std::endl;
             } else {
                 std::cerr << "Unsupported pixel format: " << stImageInfo.enPixelType << std::endl;
             }
